@@ -1,0 +1,164 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+   padding: 0;
+}
+.resumePage
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 2rem;
+    padding: 1rem;
+    background-color: rgba(10, 40, 19, 1);
+    padding: 2rem 2.5rem 2.5rem;
+    width: 640px;
+    height: 870px;
+}
+.profile
+{
+    text-align: center;
+    height: 180px;
+}
+.elip1
+{
+    position: relative;
+    top: -42px;
+    left: -90px;
+}
+.elipImg
+{
+    position: relative;
+    top: -140px;
+    left: -25px;
+}
+.nameHeader
+{
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+.line
+{
+    width: 52px;
+    border: 1px solid #FFFFFF;
+    margin: 0.5rem 0;
+}
+.textAboutMe
+{
+    width: 206px;
+    height: 136px;
+    left: 40px;
+    top: 248px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.personalData > article
+{
+    padding-bottom: 1rem;
+}
+.personalData
+{
+    padding-top: 15px;
+}
+.sectionSkills
+{
+    width: 190px;
+    margin-top: 20px;
+}
+.listOfSkills
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 0;
+}
+.listOfSkills li
+{
+    text-align: center;
+    min-width: 4rem;
+}
+.circle
+{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #D9D9D9;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nameSurname
+{
+    width: 306px;
+    height: 57px;
+    left: 247px;
+    top: 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.vacancy
+{
+    width: 196px;
+    height: 46px;
+    left: 247px;
+    top: 78px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+}
+.event
+{
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+.content
+{
+    padding-left: 2rem;
+    margin-left: 2rem;
+}
+.event+ .event
+{
+    padding-top: 1rem;
+}
+h2,h3,h4,h5
+{
+    color: #FFFFFF;
+    margin: 0;
+}
+h2
+{
+    padding-top: 1rem;
+}
+h4, h5
+{
+    font-weight: 100;
+}
+li
+{
+    list-style: none;
+}
+.mainInfo, .experience, .education, .courses
+{
+    color: #FFFFFF;
+
+}
+.elip2
+{
+    position: relative;
+    right: -275px;
+    bottom: 30px;
+}
